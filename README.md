@@ -37,17 +37,6 @@ Students engagement level detection in online e-learning has become a crucial pr
 
 
 
-#### FIGURE 2. The model architecture.
- <img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/modelArchitecture.gif" alt="The model architecture" width="500" height="300">
-
-
-
-
-#### FIGURE 3. The EfficientNet B7 architecture.
-
-<img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/EfficientNetB7Arch.gif" alt="The EfficientNet B7 architecture" width="650" height="350">
-</div>
-
 ## 🎥 VRESEE Dataset
 **VRESEE** (Videos Recorded for Egyptian Students Engagement in E-learning) is a dataset collected from Egyptian college students during real online lectures. Each video is labeled with an engagement level from 0 (Very Low) to 3 (High).
 
@@ -71,6 +60,15 @@ Three hybrid architectures were developed, combining **EfficientNetB7** for spat
 - Incorporates Bidirectional LSTM to understand past and future frames for accurate engagement prediction.
 
 These models aim to capture both spatial cues (from frames) and temporal trends (over time), which are critical for understanding engagement dynamics.
+
+#### FIGURE 2. The model architecture.
+ <img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/modelArchitecture.gif" alt="The model architecture" width="500" height="300">
+
+#### FIGURE 3. The EfficientNet B7 architecture.
+
+<img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/EfficientNetB7Arch.gif" alt="The EfficientNet B7 architecture" width="650" height="350">
+</div>
+
 
 ## 📊 Results
 | Model                       | Dataset  | Accuracy |
