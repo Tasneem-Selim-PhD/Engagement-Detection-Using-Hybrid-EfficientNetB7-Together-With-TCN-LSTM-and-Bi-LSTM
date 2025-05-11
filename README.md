@@ -24,7 +24,7 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 
 
 
-## Abstract:
+## Abstract
 Students engagement level detection in online e-learning has become a crucial problem due to the rapid advance of digitalization in education. In this paper, a novel Videos Recorded for Egyptian Students Engagement in E-learning (VRESEE) dataset is introduced for students engagement level detection in online e-learning. This dataset is based on an experiment conducted on a group of Egyptian college students by video recording them during online e-learning sessions. Each recorded video is labeled with a value from 0 to 3, representing the level of engagement of each student during the online session. Furthermore, three new hybrid end-to-end deep learning models have been proposed for detecting student’s engagement level in an online e-learning video. These models are evaluated using the VRESEE dataset and also using a public Dataset for the Affective States in E-Environment (DAiSEE). The first proposed hybrid model uses EfficientNet B7 together with Temporal Convolution Network (TCN) and achieved an accuracy of 64.67% on DAiSEE and 81.14% on VRESEE. The second model uses a hybrid EfficientNet B7 along with Long Short Term Memory (LSTM) and reached an accuracy of 67.48% on DAiSEE and 93.99% on VRESEE. Finally, the third hybrid model uses EfficientNet B7 along with a Bidirectional LSTM and achieved an accuracy of 66.39% on DAiSEE and 94.47% on VRESEE. The results of the first, second and third proposed models outperform the results of currently existing models by 1.08%, 3.89%, and 2.8% respectively in students engagement level detection.
 
 
@@ -96,13 +96,11 @@ There are several steps:
    * Modification of the following five variables within the notebook is necessary to adapt it for use with either the same dataset or a different dataset (e.g., VRESEE)
    * The five variables: "csv_file", "existing_path_prefix", "new_path_prefix_0", "new_path_prefix_1", "new_path_prefix_2", and "new_path_prefix_3"
 
-   
 ### 2- Augmentation
    * Employ the "DAISEE-AugClass0&1.ipynb" file to implement augmentation techniques specifically tailored for class 0 and class 1
    * Adaptation of the notebook to accommodate a different dataset (e.g., VRESEE) is feasible by solely modifying the paths within the fourth cell
    
 ### 3- Feature Extraction using EfficientNet B7
-
    * Adjust the paths to correspond with your specific directory structure.
    
    a- For the DAiSEE dataset:
@@ -113,7 +111,6 @@ There are several steps:
    
    "EgyptianTrain-FeatureExtractionUsingEfficientNetB7.ipynb" and "EgyptianValidate&Test-FeatureExtractionUsingEfficientNetB7.ipynb" files are employed to extract features from the Train, Validate, and Test splits of the VRESEE dataset
       
-
 
 ### 4- Train, test, and tune the models
 
