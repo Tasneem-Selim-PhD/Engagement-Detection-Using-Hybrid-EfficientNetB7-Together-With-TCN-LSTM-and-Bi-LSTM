@@ -34,8 +34,19 @@ Students engagement level detection in online e-learning has become a crucial pr
 </div>
 
 
-## 🎥 VRESEE Dataset
-**VRESEE** (Videos Recorded for Egyptian Students Engagement in E-learning) is a dataset collected from Egyptian college students during real online lectures. Each video is labeled with an engagement level from 0 (Very Low) to 3 (High).
+## 🎥 Datasets
+This project utilizes two key datasets for engagement detection: **DAiSEE** and **VERSEE**. Both datasets are curated for affective computing in educational environments and support multi-level engagement analysis.
+
+### 🔹 DAiSEE (Dataset for Affective States in E-Environments)
+
+- **Source**: [DAiSEE Dataset](https://www.iitkgp.ac.in/daisee)
+- 🎮 Number of videos: Over 9,000
+- ⏱️ Average duration: Approximately 10 seconds
+- 🎯 Labels: 4-class (Engagement, Boredom, Confusion, Frustration), each with scale 0–3 (here, 0-3 engagement levels are only used)
+- 🔄 Preprocessing:
+  - Frame extraction and resizing for EfficientNetB7 input
+  
+### 🔹 VRESEE (Videos Recorded for Egyptian Students Engagement in E-learning)
 
 - 🎮 Number of videos: Over 3,500
 - ⏱️ Average duration: Approximately 10 seconds
