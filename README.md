@@ -33,7 +33,7 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 - [📊 Results](#results)
 - [📁 Project Structure and Usage](#project-structure-and-usage)
 - [📝 Cite](#cite)
-- [📜 Paper and References](#paper-and-reference)
+- [📜 Paper and References](#paper-and-references)
 - [📬 Contact](#contact)
 
 
