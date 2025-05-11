@@ -142,3 +142,14 @@ If any part of our paper or code is helpful to your work, please generously cite
   publisher={IEEE}
 }
 ```
+
+## 📄 Paper and References
+- 📘 **IEEE Access Paper**: [Students Engagement Level Detection in Online e-Learning Using Hybrid EfficientNetB7 Together With TCN, LSTM, and Bi-LSTM](https://ieeexplore.ieee.org/abstract/document/9893134)
+- 📚 **Google Scholar**: [Tasneem Selim Profile](https://scholar.google.com/citations?user=qrbLDz4AAAAJ&hl=en)
+- 📖 **ResearchGate**: [Research Profile](https://www.researchgate.net/profile/Tasneem-Selim)
+
+## 📬 Contact
+For questions or collaboration:
+**Tasneem Selim**  
+📧 tasneem.selim@email.com  
+🌍 [Google Scholar](https://scholar.google.com/citations?user=qrbLDz4AAAAJ&hl=en)
