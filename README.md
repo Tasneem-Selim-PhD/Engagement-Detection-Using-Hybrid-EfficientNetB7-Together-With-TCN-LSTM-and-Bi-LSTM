@@ -28,7 +28,7 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 - [📄 Abstract](#abstract)
 - [🎥 Datasets](#Datasets)
   - [🔹 DAiSEE (Dataset for Affective States in E-Environments)](#daisee-dataset-for-affective-states-in-e-environments)
-  - [🔹 VERSEE (Video Engagement Recognition in Students from E-learning Environment)](#versee-video-engagement-recognition-in-students-from-e-learning-environment)
+  - [🔹 VRESEE (Video Recorded for Egyptian Students Engagement in E-learning)](#VRESEE-(Videos-Recorded-for-Egyptian-Students-Engagement-in-E-learning))
 - [🧠 Proposed Hybrid Models](#proposed-hybrid-models)
 - [📊 Results](#results)
 - [📁 Project Structure and Usage](#project-structure-and-usage)
