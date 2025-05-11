@@ -39,7 +39,7 @@ This project utilizes two key datasets for engagement detection: **DAiSEE** and 
 
 ### 🔹 DAiSEE (Dataset for Affective States in E-Environments)
 
-- **Source**: [DAiSEE Dataset](https://www.iitkgp.ac.in/daisee)
+- **Source**: [DAiSEE Dataset](https://people.iith.ac.in/vineethnb/resources/daisee/index.html)
 - 🎮 Number of videos: Over 9,000
 - ⏱️ Average duration: Approximately 10 seconds
 - 🎯 Labels: 4-class (Engagement, Boredom, Confusion, Frustration), each with scale 0–3 (here, 0-3 engagement levels are only used)
