@@ -29,11 +29,11 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 - [🎥 Datasets](#Datasets)
   - [🔹 DAiSEE (Dataset for Affective States in E-Environments)](#daisee-dataset-for-affective-states-in-e-environments)
   - [🔹 VERSEE (Video Engagement Recognition in Students from E-learning Environment)](#versee-video-engagement-recognition-in-students-from-e-learning-environment)
-- [🧠 Proposed Hybrid Model](#proposed-hybrid-model)
+- [🧠 Proposed Hybrid Models](#proposed-hybrid-models)
 - [📊 Results](#results)
 - [📁 Project Structure and Usage](#project-structure-and-usage)
 - [📝 Cite](#cite)
-- [📜 Paper and Reference](#paper-and-reference)
+- [📜 Paper and References](#paper-and-reference)
 - [📬 Contact](#contact)
 
 
@@ -72,7 +72,7 @@ This project utilizes two key datasets for engagement detection: **DAiSEE** and 
   - Frame extraction and resizing for EfficientNetB7 input
 
 
-## Proposed Models
+## Proposed Hybrid Models
 Three hybrid architectures were developed, combining **EfficientNetB7** for spatial feature extraction with temporal sequence models:
 
 ### 1. EfficientNetB7 + TCN
@@ -99,6 +99,7 @@ These models aim to capture both spatial cues (from frames) and temporal trends 
 
 
 ## Results
+
 | Model                       | Dataset  | Accuracy |
 |-----------------------------|----------|----------|
 | EfficientNetB7 + TCN        | DAiSEE   | 64.67%   |
