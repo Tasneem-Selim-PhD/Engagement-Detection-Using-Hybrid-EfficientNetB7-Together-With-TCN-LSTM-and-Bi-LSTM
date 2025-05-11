@@ -29,6 +29,7 @@ Students engagement level detection in online e-learning has become a crucial pr
 
 
 <div align="center">
+  
 #### FIGURE 1. The preprocessing of VRESEE video files
 
 <img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/DatasetPreprocessing.gif" alt="Dataset Preprocessing" width="500" height="150">
@@ -61,7 +62,7 @@ These models aim to capture both spatial cues (from frames) and temporal trends 
 
 
 <div align="center">
- 
+  
 #### FIGURE 2. The model architecture.
  <img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/modelArchitecture.gif" alt="The model architecture" width="500" height="300">
 
