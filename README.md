@@ -48,6 +48,43 @@ Students engagement level detection in online e-learning has become a crucial pr
 <img src="https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM/blob/main/Figures/EfficientNetB7Arch.gif" alt="The EfficientNet B7 architecture" width="650" height="350">
 </div>
 
+## 🎥 VRESEE Dataset
+**VRESEE** (Videos Recorded for Egyptian Students Engagement in E-learning) is a dataset collected from Egyptian college students during real online lectures. Each video is labeled with an engagement level from 0 (Very Low) to 3 (High).
+
+- 🎮 Number of videos: Over 3,500
+- ⏱️ Average duration: Approximately 10 seconds
+- 🎯 Labels: 4-class (0–3 engagement levels)
+- 🔄 Preprocessing:
+  - Frame extraction and resizing for EfficientNetB7 input
+
+
+## 🤖 Proposed Models
+Three hybrid architectures were developed, combining **EfficientNetB7** for spatial feature extraction with temporal sequence models:
+
+### 1. EfficientNetB7 + TCN
+- Utilizes Temporal Convolutional Networks to capture sequential dependencies over time.
+
+### 2. EfficientNetB7 + LSTM
+- Employs Long Short-Term Memory networks to model engagement progression.
+
+### 3. EfficientNetB7 + Bi-LSTM
+- Incorporates Bidirectional LSTM to understand past and future frames for accurate engagement prediction.
+
+These models aim to capture both spatial cues (from frames) and temporal trends (over time), which are critical for understanding engagement dynamics.
+
+## 📊 Results
+| Model                       | Dataset  | Accuracy |
+|-----------------------------|----------|----------|
+| EfficientNetB7 + TCN        | DAiSEE   | 64.67%   |
+| EfficientNetB7 + TCN        | VRESEE   | 81.14%   |
+| EfficientNetB7 + LSTM       | DAiSEE   | 67.48%   |
+| EfficientNetB7 + LSTM       | VRESEE   | 93.99%   |
+| EfficientNetB7 + Bi-LSTM    | DAiSEE   | 66.39%   |
+| EfficientNetB7 + Bi-LSTM    | VRESEE   | 94.47%   |
+
+*Note: These results demonstrate that the proposed models outperform existing student engagement level detection methods.*
+
+
 ## Project Structure and Usage
 This project was prepared to run on Colab
 
