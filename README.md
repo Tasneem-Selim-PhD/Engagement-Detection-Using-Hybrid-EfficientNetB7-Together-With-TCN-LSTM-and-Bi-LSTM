@@ -25,11 +25,12 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 
 ## 📚 Table of Contents
 
-- [📄 Abstract](#📄abstract)
-- [🎥 Datasets](#🎥Datasets)
+- [📄 Abstract](#abstract)
+- [🎥 Datasets](#Datasets)
   - [🔹 DAiSEE (Dataset for Affective States in E-Environments)](#daisee-dataset-for-affective-states-in-e-environments)
   - [🔹 VERSEE (Video Engagement Recognition in Students from E-learning Environment)](#versee-video-engagement-recognition-in-students-from-e-learning-environment)
 - [🧠 Proposed Hybrid Model](#proposed-hybrid-model)
+- [📊 Results](#results)
 - [📁 Project Structure and Usage](#project-structure-and-usage)
 - [📝 Cite](#cite)
 - [📜 Paper and Reference](#paper-and-reference)
@@ -38,7 +39,7 @@ Tasneem Selim, Islam Elkabani, Mohamed A. Abdou
 
 
 
-## 📄 Abstract
+## Abstract
 Students engagement level detection in online e-learning has become a crucial problem due to the rapid advance of digitalization in education. In this paper, a novel Videos Recorded for Egyptian Students Engagement in E-learning (VRESEE) dataset is introduced for students engagement level detection in online e-learning. This dataset is based on an experiment conducted on a group of Egyptian college students by video recording them during online e-learning sessions. Each recorded video is labeled with a value from 0 to 3, representing the level of engagement of each student during the online session. Furthermore, three new hybrid end-to-end deep learning models have been proposed for detecting student’s engagement level in an online e-learning video. These models are evaluated using the VRESEE dataset and also using a public Dataset for the Affective States in E-Environment (DAiSEE). The first proposed hybrid model uses EfficientNet B7 together with Temporal Convolution Network (TCN) and achieved an accuracy of 64.67% on DAiSEE and 81.14% on VRESEE. The second model uses a hybrid EfficientNet B7 along with Long Short Term Memory (LSTM) and reached an accuracy of 67.48% on DAiSEE and 93.99% on VRESEE. Finally, the third hybrid model uses EfficientNet B7 along with a Bidirectional LSTM and achieved an accuracy of 66.39% on DAiSEE and 94.47% on VRESEE. The results of the first, second and third proposed models outperform the results of currently existing models by 1.08%, 3.89%, and 2.8% respectively in students engagement level detection.
 
 
@@ -50,10 +51,10 @@ Students engagement level detection in online e-learning has become a crucial pr
 </div>
 
 
-## 🎥 Datasets
+## Datasets
 This project utilizes two key datasets for engagement detection: **DAiSEE** and **VERSEE**. Both datasets are curated for affective computing in educational environments and support multi-level engagement analysis.
 
-### 🔹 DAiSEE (Dataset for Affective States in E-Environments)
+### DAiSEE (Dataset for Affective States in E-Environments)
 
 - **Source**: [DAiSEE Dataset](https://people.iith.ac.in/vineethnb/resources/daisee/index.html)
 - 🎮 Number of videos: Over 9,000
@@ -62,7 +63,7 @@ This project utilizes two key datasets for engagement detection: **DAiSEE** and 
 - 🔄 Preprocessing:
   - Frame extraction and resizing for EfficientNetB7 input
   
-### 🔹 VRESEE (Videos Recorded for Egyptian Students Engagement in E-learning)
+### VRESEE (Videos Recorded for Egyptian Students Engagement in E-learning)
 
 - 🎮 Number of videos: Over 3,500
 - ⏱️ Average duration: Approximately 10 seconds
@@ -71,7 +72,7 @@ This project utilizes two key datasets for engagement detection: **DAiSEE** and 
   - Frame extraction and resizing for EfficientNetB7 input
 
 
-## 🤖 Proposed Models
+## Proposed Models
 Three hybrid architectures were developed, combining **EfficientNetB7** for spatial feature extraction with temporal sequence models:
 
 ### 1. EfficientNetB7 + TCN
@@ -97,7 +98,7 @@ These models aim to capture both spatial cues (from frames) and temporal trends 
 </div>
 
 
-## 📊 Results
+## Results
 | Model                       | Dataset  | Accuracy |
 |-----------------------------|----------|----------|
 | EfficientNetB7 + TCN        | DAiSEE   | 64.67%   |
@@ -168,11 +169,11 @@ If any part of our paper or code is helpful to your work, please generously cite
 }
 ```
 
-## 📄 Paper and References
+## Paper and References
 - 📘 **IEEE Access Paper**: [Students Engagement Level Detection in Online e-Learning Using Hybrid EfficientNetB7 Together With TCN, LSTM, and Bi-LSTM](https://ieeexplore.ieee.org/abstract/document/9893134)
 - 📚 **Google Scholar**: [Tasneem Selim Profile](https://scholar.google.com/citations?user=qrbLDz4AAAAJ&hl=en)
 - 📖 **ResearchGate**: [Research Profile](https://www.researchgate.net/profile/Tasneem_Selim3?ev=hdr_xprf)
 
-## 📬 Contact
+## Contact
 For questions or collaboration:
 **Tasneem Selim**  📧 tasneem.selim@email.com  
